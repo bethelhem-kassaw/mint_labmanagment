@@ -1,0 +1,58 @@
+body{
+    background: url('../images/loginbackground.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+.loginHeader{
+    text-align: center;
+
+
+}
+.loginHeader h1{
+    font-size: 60px;
+    color: whitesmoke;
+    padding: 0px;
+    margin:0px ;
+}
+.loginHeader h3{
+    color: whitesmoke;
+    font-size: 60px;
+     
+}
+.loginContainer form{
+    margin: 0 auto;
+    width:500px;
+    background: rgba(34, 31, 65, 0.5);
+    padding: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+}
+.loginInputContainer{
+    margin-top: 20px;
+
+}
+.loginInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: seashell;
+    text-align: center;
+    margin: 0px;
+}
+.loginInputContainer input{
+    height: 25px;
+    width: 100%;
+    border:2px solid #9c6e7a;
+    font-size:20px;
+    padding:5px;
+    text-align: center;
+}
+.loginButtonContainer {
+    margin-top: 40px;
+    text-align: center;
+}
+.loginButtonContainer button{
+    font-size: 30px;
+    padding:10px 20px;
+}
